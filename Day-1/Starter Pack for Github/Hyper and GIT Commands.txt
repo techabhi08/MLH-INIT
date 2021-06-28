@@ -1,0 +1,42 @@
+# Common Command Lines Code(hyper)
+
+Hyper is basically a command line, same as the one that we have on our system by default. 
+I use windows so cmd or command prompt is the default command line for windows but hyper is way more 
+efficient and cooler to use so I prefer using hyper. Moreover, it works same on windows and mac so 
+that’s another advantage. Now to install and know more than this document which I am providing you must
+refer to the hyper docs. You can find every piece of info there from installation to the command list.
+These are just some basic code to deploy your files on GitHub or clone them on your local system.
+
+•	cd 			– to change directory
+•	mkdir foldername  	– to make the directory
+•	touch filename          – to make a new file.
+•	start filename		-to start the file on default editor
+•	ls 			- to check the list of files in the directory
+•	ls -a			- to check all the files including hidden in the dir
+•	pwd 			- to check the current location
+
+# Codes for GIT on Local Repo
+
+•	Git init 						- to initialise git in the directory
+•	git add . 						- to add all the files in the folder
+•	git status						- to check the status in the repo
+•	git add filename 					– to add a particular file
+•	git commit – m “comment or the changes made”	 	- to commit the file in the git
+•	git log							 - to review the history of repo
+
+# Codes to push the files to remote repo(Github)
+
+•	git remote add origin github address	-- the location where files to be added
+•	git push -u origin master		-- pushes all the file to the default master branch
+•	git rm –cached – r			-- to remove all files if added bymistake 
+
+# Gitignore
+
+This is basically used to add the files which should be hidden and we don’t want the user to view them. 
+Those files are stored inside the .gitignore file. This file is pushed along with the other files that 
+need to pushed so that user can access them.
+
+•	.filename 			-- to add the files 
+•	#				-- to add the comment
+•	*.fileextension			--all the files of this extension are ignored or hidden
+
